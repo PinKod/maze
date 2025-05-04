@@ -1,0 +1,9 @@
+{
+   <pthread-TLS>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.2.5
+}

@@ -1,0 +1,22 @@
+---
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+
+PointerAlignment: Left
+
+#KeepEmptyLinesAtEOF: 1
+
+#MaxEmptyLinesToKeep: 10
+
+AlignConsecutiveDeclarations: true
+
+ColumnLimit: 130 
+
+AllowShortFunctionsOnASingleLine: Empty
+
+ColumnLimit: 0 
+
+AlignEscapedNewlines: Left
+
+AlignConsecutiveMacros: true

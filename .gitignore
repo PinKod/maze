@@ -129,3 +129,18 @@ Module.symvers
 Mkfile.old
 Makefile.old
 dkms.conf
+
+# ides setting xml's & iml's & json's
+*.xml
+*.iml
+*.json
+*.DS/
+*.DS
+*.vscode/
+*.vscode
+
+# coverage files
+*.html
+
+
+bin/
